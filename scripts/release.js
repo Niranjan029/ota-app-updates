@@ -7,7 +7,7 @@ const path = require('path');
 const APP_SOURCE_DIR = path.resolve(__dirname, '../../Demo-OTA-Test'); 
 
 // 2. The output directory in your Capacitor app (usually 'dist', 'www', or 'build')
-const BUILD_OUTPUT_DIR = 'dist'; 
+const BUILD_OUTPUT_DIR = 'www'; 
 
 // 3. The public URL where this repo will be hosted (e.g., GitHub Pages)
 const PUBLIC_HOST_URL = 'https://niranjan029.github.io/ota-app-updates';
