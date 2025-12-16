@@ -17,8 +17,6 @@ const bundlesDir = path.resolve(__dirname, '../bundles');
 const versionFile = path.resolve(__dirname, '../version.json');
 
 async function run() {
-    console.log('🚀 Starting OTA Release Process...');
-
     // 1. Read the version from your APP's package.json
     const appPackage = require(path.join(APP_SOURCE_DIR, 'package.json'));
     const version = appPackage.version;
